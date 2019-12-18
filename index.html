@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My CSS website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+        <li><a href="home">Home</a></li>
+            <li><a href="news">News</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="about">About</a></li>
+            <li class="topnav-right"><a href="signup">Sign-up</a></li>
+            <li class="topnav-right"><a href="signin">Sign-In</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        
+        </ul>
+    
+    </nav>
+    
+    <div class="container" id="section-1-gradient">
+    
+    <div class="row">
+     <div class="col-6">
+         <div class="leftSide-col">
+        <h1 class="large">Crazy Redness</h1>
+         <h1 class="large">Made for Devslopers</h1>
+    </div>
+         
+         
+        <form>
+            <div class="leftSide-col">
+            
+           <h2>Username</h2> 
+            <input class="inputbox" name="username" type="text" placeholder="Username">
+                
+            <h2>Password</h2>
+             <input class="inputbox" name="password" type="text" placeholder="Password">
+            
+            </div>
+        </form>
+        
+        </div>
+        
+        <div class="col-6">
+        
+        
+        <div class="rightSide-col">
+          <div class="videoContainer">
+            <iframe width="360" height="250" src="https://www.youtube.com/embed/tC6i1AIj4iU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        
+        </div>
+    
+    </div>
+        
+        </div>
+    </div>
+    
+    <header>
+    
+    <h1 class="section2Header">The Standards of Awesomeness</h1>
+    
+    </header>
+    
+    <div class="container">
+       <div  class="row">
+           <div class="col-4">
+           <div class="box">
+             <div class="icon">
+               <img src="download.png" >
+               
+               </div> 
+               <label> Chat with Me</label>
+               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            </div>
+          </div>
+           
+           <div class="col-4">
+           <div class="box">
+             <div class="icon">
+               <img src="download.png" >
+               
+               </div> 
+               <label> Learn to Code</label>
+               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            </div>
+          </div>
+           
+           <div class="col-4">
+           <div class="box">
+             <div class="icon">
+               <img src="download.png" >
+               
+               </div> 
+               <label> Build an empire </label>
+               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore"> Learn More</button>
+            
+            
+            </div>
+        
+        
+        </div>
+     </div>
+    
+    <hr>
+    <div class="container">
+        <div class="row">
+        <div class="col-7"> 
+        <article>
+            
+          <p>The Realme 2 Pro featuring the Snapdragon 660 AIE processor is set to become a benchmark in the mid-range smartphone segment. Its 6.3-inch Dewdrop FHD Full Screen has the highest screen-to-body ratio of 90.8% of the smartphones in its segment. It comes in three variants: 4 GB RAM + 64 GB ROM, 6 GB RAM + 64 GB ROM and 8 GB RAM + 128 GB ROM.</p>  
+            
+            </article>
+        </div>
+            
+        <div class="col-5">
+           <div  class="ex">
+    
+            <img src="example.png">
+            </div> 
+            
+        </div>
+            
+      </div>
+    </div>
+    
+    <footer class="footsy">
+    <div class="row">
+      <div class="col-3 mobileStack">
+        <h1>Company</h1>
+          <ul>
+          <li>About</li>
+            <li>BlogS</li>
+            <li>Careers</li>
+          </ul>
+       </div>  
+        
+        <div class="col-3 mobileStack">
+        <h1>Products</h1>
+          <ul>
+          <li>Computer</li>
+            <li>iPads</li>
+            <li>iPhones</li>
+          </ul>
+       </div>  
+        
+        <div class="col-3 mobileStack">
+        <h1>Learn More</h1>
+          <ul>
+          <li>Developers</li>
+            <li>Desiners</li>
+            <li>Hackers</li>
+          </ul>
+       </div>  
+        
+        <div class="col-3 mobileStack">
+        <h1>Support</h1>
+          <ul>
+          <li>Help</li>
+            <li>QA</li>
+            <li>Contact</li>
+          </ul>
+       </div>  
+        
+        
+        
+        </div>
+    
+    </footer>
+    
+    
+    
+    
+    
+    
+    <script>
+    function dropdownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+            /*change topnav to topnav.responsive */
+        }
+        else{
+            x.className = "topnav";
+        }
+    }
+    </script>
+    </body>
+
+
+</html>
